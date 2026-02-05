@@ -13,7 +13,7 @@ public class ClassStart4 {
 		student2.grade = 70;
 
 		Student[] students = new Student[2];
-		students[0] = student1;
+		students[0] = student1; //인스턴스가 복사되는게 아니라 참조값인 주소가 복사된거다!!
 		students[1] = student2;
 
 		for (int i = 0; i < 2; i++) {

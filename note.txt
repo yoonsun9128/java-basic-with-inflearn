@@ -32,6 +32,11 @@ null을 가리킬때 발생하는 예외 상황!!
 *절차 지향 프로그래밍
 실행 순서를 중요하게 생각하는 방식이다 -> 프로그램의 흐름을 순차적으로!
 -> 데이터와 해당 데이터에 대한 처리 방식이 분리
+--한계
+-> 데이터와 기능이 분리되어 있다는 점
+ex) 'MusicPlayerData' 와 MusicPlayerMain3에 각각 메서드(기능) 으로 분리되어 있음
+이후에 MusicPlayerData가 분리가 되어서 이게 변경이 되면 MusicPlayerMain3에의 메서드 들도 변경 해줘야 한다.
+만약 MusicPlayerData.volume을 volume2로 변경시 MusicPlayerMain3에서 MusicPlayerData의 volume을 바라보고 있는 메서드에 영향을 미친다.
 
 * 객채 지향 프로그래밍
 -> 객체를 지향한다

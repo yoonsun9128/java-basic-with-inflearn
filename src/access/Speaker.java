@@ -1,7 +1,8 @@
 package access;
 
 public class Speaker {
-	int volume;
+	//private을 추가해서 밖에서 직접 접근이 불가능하게 설정
+	private int volume;
 
 	Speaker(int volume) {
 		//초기 볼류값을 받는 조건으로 함

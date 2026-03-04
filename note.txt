@@ -71,6 +71,9 @@ ex)) user >> User, UserManger, UserHistory
 -> protected : 같은 패키지안에서 호출 허용, 패키지가 달라도 상속 관계의 호출은 허용
 -> public : 모든 호출 허용
 
+** 접근 제어자 사용 - 클레스 레벨
+-> public, default만 사용 가능
+-> public은 반드시 파일명과 이름이 같아야 한다.
 
 
 

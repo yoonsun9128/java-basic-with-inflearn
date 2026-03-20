@@ -105,6 +105,8 @@ Last in first out = 후입 선출 = 스택
 * static 변수
 - static 키워드는 보통 멤버 변수와 메서드에 사용된다.
 
+* final
+- 변수에 final이 붙으면 더 이상 값을 변경할 수 없다라는 뜻
 
 
 

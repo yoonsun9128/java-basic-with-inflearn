@@ -1,0 +1,14 @@
+package poly.ex.pay1;
+
+public class DefaultPay implements Pay {
+	@Override
+	public String getName() {
+		return "";
+	}
+
+	@Override
+	public boolean pay(int amount) {
+		System.out.println("결제 수단이 없습니다.");
+		return false;
+	}
+}
